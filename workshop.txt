@@ -1,0 +1,7 @@
+Welcome to GitHub Workshop!
+What is your name and PID?
+
+Person 1: My name is [(name)]. I am going to use gitHub for a class, CS[].
+Person 2: My name is [(name)]. I am going to use gitHub for a class, CS[].
+Person 3: My name is [(name)]. I am going to use gitHub for a class, CS[].
+
