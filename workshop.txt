@@ -1,5 +1,5 @@
-Welcome to GitHub Workshop!
-What is your name and PID?
+Welcome to the GitHub Workshop!
+Fill out some personal information: 
 
 Person 1: My name is [(name)]. I am going to use gitHub for a class, CS[].
 Person 2: My name is [(name)]. I am going to use gitHub for a class, CS[].
