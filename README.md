@@ -8,15 +8,15 @@ And [create your GitHub account](https://github.com "GitHub Homepage")
 
 Basic Linux Commands
 ======
-These are the Linux commands that you'll be using in Git Bash (which you've just downloaded)
+These are the Linux commands that you'll be using in Git Bash (which you've just downloaded)  
 
-   `ls` shows files and folders (aka directories)  
-   `mkdir <folder_name>` makes a new directory  
-   `cd <directory_path>` changes directory to the specified path  
-   `touch <file_name>` used to update access date of file/directory  
-   `cp <file> <new_file>` copies contents of `<file>` to `<new_file>`  
-   `mv <file> <new_file>` moves `<file>` and it's contents to another location/name  
-   `rm [-rf] <file>` removes file (`-rf` tag removes folders and their contents, recursively)  
+&nbsp;&nbsp;&nbsp;`ls` shows files and folders (aka directories)  
+&nbsp;&nbsp;&nbsp;`mkdir <folder_name>` makes a new directory  
+&nbsp;&nbsp;&nbsp;`cd <directory_path>` changes directory to the specified path  
+&nbsp;&nbsp;&nbsp;`touch <file_name>` used to update access date of file/directory  
+&nbsp;&nbsp;&nbsp;`cp <file> <new_file>` copies contents of `<file>` to `<new_file>`  
+&nbsp;&nbsp;&nbsp;`mv <file> <new_file>` moves `<file>` and it's contents to another location/name  
+&nbsp;&nbsp;&nbsp;`rm [-rf] <file>` removes file (`-rf` tag removes folders and their contents, recursively)
 
 Basic Git
 ======
@@ -28,24 +28,28 @@ Forking is a **GitHub** feature that creates a copy of a repository in your acco
 
 ### Cloning
 Explanation of cloning goes here!
-```
+
+```bash
 code to clone repo should go here.
 ``` 
 
 ### Branching
 explanations
-```
+
+```bash
 example code
 ```
 
 ### Making Changes to Your Repository
 Add, Commit, Pull, Push!!
-```
-code for add commit pull/push goes here
+
+```bash
+add commit pull/push ode goes here
 ```
 
 ### Merge Conflicts
 explanation and such and such
-```
+
+```bash
 example code goes here
 ```
