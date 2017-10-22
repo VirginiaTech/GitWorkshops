@@ -3,8 +3,9 @@ Welcome to our GitHub workshop. Get ready to learn all about the basics of using
 
 Set Up
 ======
-Begin by [downloading git](https://git-scm.com/downloads "Git Downloads")
-And [create your GitHub account](https://github.com "GitHub Homepage")
+Begin by 
+1. [downloading git](https://git-scm.com/downloads "Git Downloads")
+2. [creating your GitHub account](https://github.com "GitHub Homepage")
 
 Basic Linux Commands
 ======
