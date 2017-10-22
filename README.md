@@ -15,12 +15,14 @@ These are the Linux commands that you'll be using in Git Bash (which you've just
 &nbsp;&nbsp;&nbsp;`mkdir <folder_name>` makes a new directory  
 &nbsp;&nbsp;&nbsp;`cd <directory_path>` changes directory to the specified path  
 &nbsp;&nbsp;&nbsp;`touch <file_name>` used to update access date of file/directory  
-&nbsp;&nbsp;&nbsp;`cp <file> <new_file>` copies contents of `<file>` to `<new_file>`  
-&nbsp;&nbsp;&nbsp;`mv <file> <new_file>` moves `<file>` and it's contents to another location/name  
+&nbsp;&nbsp;&nbsp;`cp <file_name> <new_file>` copies contents of `<file>` to `<new_file>`  
+&nbsp;&nbsp;&nbsp;`mv <file_name> <new_file>` moves `<file>` and it's contents to another location/name  
 &nbsp;&nbsp;&nbsp;`rm [-rf] <file>` removes file (`-rf` tag removes folders and their contents, recursively)
 
 Basic Git
 ======
+
+### Initializing
 
 ### Forking
 Forking is a **GitHub** feature that creates a copy of a repository in your account.  
@@ -33,13 +35,6 @@ Explanation of cloning goes here!
 ```bash
 code to clone repo should go here.
 ``` 
-
-### Branching
-explanations
-
-```bash
-example code
-```
 
 ### Making Changes to Your Repository
 Add, Commit, Pull, Push!!
@@ -54,3 +49,5 @@ explanation and such and such
 ```bash
 example code goes here
 ```
+
+### Status
