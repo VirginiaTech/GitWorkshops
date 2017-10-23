@@ -1,0 +1,4 @@
+Welcome to the GitHub Workshop!
+Fill out some personal information:
+
+I am Jieun Chon and my favorite programing language is Java;
