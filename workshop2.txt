@@ -1,4 +1,4 @@
 Welcome to the GitHub Workshop!
 Fill out some personal information:
 
-I am [(name) and my favorite programing language is [(language name)];
+I am Jieun Chon and my favorite programing language is Java;
