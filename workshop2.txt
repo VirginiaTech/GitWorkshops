@@ -1,4 +1,5 @@
 Welcome to the GitHub Workshop!
 Fill out some personal information:
 
-I am [(name)] and my favorite programing language is [()];
+I am Bill Gates and my favorite programing language is C#;
+
