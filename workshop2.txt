@@ -2,4 +2,4 @@ Welcome to the GitHub Workshop!
 Fill out some personal information:
 
 I am Bill Gates and my favorite programing language is C#;
-
+I am Jieun Chon and my favorite programing language is Java;
