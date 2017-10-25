@@ -19,12 +19,11 @@ These are the Linux commands that you'll be using in Git Bash (which you've just
 
 # Basic Git
 
-## Initializing
-
 ## [Forking](https://guides.github.com/activities/forking/ "GitHub Guides: Forking")
-Forking is a **GitHub** feature that creates a copy of a repository in your account.  
-1. One person will fork to their personal account by clicking the **"Fork"** button in the upper right hand corner.
+Forking is a **GitHub** feature that creates a copy of a repository in your account. Begin by going the repository's web page.
+1. Fork to your personal account by clicking the **"Fork"** button in the upper right hand corner.
 2. Invite your teammates to join your forked repository by going to the **"Settings"** page of the repository.
+3. Select the **"Collaborators"** tab from the sidebar on the left and enter your teammates' usernames.
 
 ## [Cloning](https://git-scm.com/docs/git-clone "Git Clone")
 Copy the **HTTPS** URL from the repository. Before you use this URL, be sure to change to the directory where you'd like for the repository to be saved on your local machine. The sequence of events 
@@ -36,7 +35,7 @@ git clone <url>
 Now it is on your local machine. See for yourself by using the `ls` command!
 
 ## [Status](https://git-scm.com/docs/git-status "Git Status")
-
+Displays the working tree's status.
 ```bash
 git status
 ``` 
@@ -59,10 +58,24 @@ git reset .
 ```
 
 ## [Pull](https://git-scm.com/docs/git-pull "Git Pull")
+Pulling updates your local machine with the latest changes made to the remote repository.
 
 ```bash
 git pull
 ```
 
-## Merge Conflicts
+## [Merge Conflicts](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/ "Resolving Merge Conflicts")
 If you are given an error when attempting to `git push`, often times the error is because your local repository is not up to date which can be solved by `git pull`. However, if you pull and run across a **CONFLICT** message you'll need to open the file with the conflict and resolve them.
+
+Code that is between the `<<<<<<< HEAD` and `=======` are changes that you've made.  
+Code between the `=======` and `>>>>>>> <commit_id>` is what is located in the remote repository.
+
+Simply delete the conflict markers and the line you don't need (or don't delete either line if you'd like to keep both).
+
+
+## [Initializing](https://git-scm.com/docs/git-init "Git Init")
+Creates an empty git repository.
+
+```bash
+git init
+```
