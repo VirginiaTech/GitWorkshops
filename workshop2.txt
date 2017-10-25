@@ -1,4 +1,4 @@
 Welcome to the GitHub Workshop!
 Fill out some personal information:
 
-I am and my favorite programming language is .
+I am Teddy and my favorite programming language is Python.
