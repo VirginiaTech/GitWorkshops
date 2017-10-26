@@ -85,7 +85,7 @@ touch <file_name>
 git init
 ```
 
-For your local Git repository to exist on GitHub you have to go the GitHub's website and create a new repository. On the [GitHub homepage](https://github.com/ GitHub HomePage), this is the **"New repository"** button on the lower right hand corner. Copy the URL from this new repository to use in the following commands:
+For your local Git repository to exist on GitHub you have to go the GitHub's website and create a new repository. On the [GitHub homepage](https://github.com/ "GitHub HomePage"), this is the **"New repository"** button on the lower right hand corner. Copy the URL from this new repository to use in the following commands:
 ```bash
 git remote add origin <url>
 git remote --set-upstream origin master
