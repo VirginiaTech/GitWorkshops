@@ -74,8 +74,19 @@ Simply delete the conflict markers and the line you don't need (or don't delete 
 
 
 ## [Initializing](https://git-scm.com/docs/git-init "Git Init")
-Creates an empty git repository.
+Initializes a non-git directory into a git repository.  
+It does **NOT** automatically put itself onto GitHub.  
 
+First, create a directory that you'd like to turn into a git repository. Change to that directory and make some files. Finally, initalize the directory into a git repository!
 ```bash
+mkdir <folder_name>
+cd <folder_name>
+touch <file_name>
 git init
+```
+
+For your local Git repository to exist on GitHub you have to go the GitHub's website and create a new repository. On the [GitHub homepage](https://github.com/ GitHub HomePage), this is the **"New repository"** button on the lower right hand corner. Copy the URL from this new repository to use in the following commands:
+```bash
+git remote add origin <url>
+git remote --set-upstream origin master
 ```
