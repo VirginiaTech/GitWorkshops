@@ -28,7 +28,7 @@ Forking is a **GitHub** feature that creates a copy of a repository in your acco
 ## [Cloning](https://git-scm.com/docs/git-clone "Git Clone")
 Copy the **HTTPS** URL from the repository. Before you use this URL, be sure to change to the directory where you'd like for the repository to be saved on your local machine. The sequence of events 
 
-```bash
+```
 cd git-repos/
 git clone <url>
 ``` 
@@ -36,7 +36,7 @@ Now it is on your local machine. See for yourself by using the `ls` command!
 
 ## [Status](https://git-scm.com/docs/git-status "Git Status")
 Displays the working tree's status.
-```bash
+```
 git status
 ``` 
 Red changes are *not* staged for commit, whereas green changes are staged for commit.
@@ -44,7 +44,7 @@ Red changes are *not* staged for commit, whereas green changes are staged for co
 ## Uploading to Your Repository
 In general, the basic flow of updating the repository based on your changes is to [add](https://git-scm.com/docs/git-add "Git Add"), [commit](https://git-scm.com/docs/git-commit "Git Commit"), and [push](https://git-scm.com/docs/git-push "Git Push").
 
-```bash
+```
 git add .
 git commit -m "A descriptive message"
 git push
@@ -53,14 +53,14 @@ git push
 ## [Reset](https://git-scm.com/docs/git-reset "Git Reset")
 This is how you can **unstage** files that have been staged for a commit.
 
-```bash
+```
 git reset .
 ```
 
 ## [Pull](https://git-scm.com/docs/git-pull "Git Pull")
 Pulling updates your local machine with the latest changes made to the remote repository.
 
-```bash
+```
 git pull
 ```
 
@@ -78,7 +78,7 @@ Initializes a non-git directory into a git repository.
 It does **NOT** automatically put itself onto GitHub.  
 
 First, create a directory that you'd like to turn into a git repository. Change to that directory and make some files. Finally, initalize the directory into a git repository!
-```bash
+```
 mkdir <folder_name>
 cd <folder_name>
 touch <file_name>
@@ -86,7 +86,7 @@ git init
 ```
 
 For your local Git repository to exist on GitHub you have to go the GitHub's website and create a new repository. On the [GitHub homepage](https://github.com/ "GitHub HomePage"), click the **"New repository"** button on the lower right hand corner. Copy the URL from this new repository to use in the following commands:
-```bash
+```
 git remote add origin <url>
 git remote --set-upstream origin master
 ```
