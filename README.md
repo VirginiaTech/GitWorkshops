@@ -68,7 +68,16 @@ git pull
 If you are given an error when attempting to `git push`, often times the error is because your local repository is not up to date which can be solved by `git pull`. However, if you pull and run across a **CONFLICT** message you'll need to open the file with the conflict and resolve them.
 
 Code that is between the `<<<<<<< HEAD` and `=======` are changes that you've made.  
-Code between the `=======` and `>>>>>>> <commit_id>` is what is located in the remote repository.
+Code between the `=======` and `>>>>>>> <commit_id>` is what is located in the remote repository.  
+
+For example, your code might look like this:
+```
+<<<<<<< HEAD
+Changes you've made.
+=======
+What exists on the remote git repository.
+>>>>>>> <commit_id>
+```
 
 Simply delete the conflict markers and the line you don't need (or don't delete either line if you'd like to keep both).
 
