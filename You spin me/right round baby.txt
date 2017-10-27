@@ -1,0 +1,19 @@
+package test;
+
+import student.TestCase;
+
+public class Test extends TestCase {
+  /**
+  *a
+  */
+  public int number;
+  
+  public void setUp() {
+    number = 1;
+  }
+  
+  public void test() {
+      assertEquals(1, number);
+  }
+  
+}
