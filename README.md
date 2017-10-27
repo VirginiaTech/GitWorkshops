@@ -97,5 +97,5 @@ git init
 For your local Git repository to exist on GitHub you have to go the GitHub's website and create a new repository. On the [GitHub homepage](https://github.com/ "GitHub HomePage"), click the **"New repository"** button on the lower right hand corner. Copy the URL from this new repository to use in the following commands:
 ```
 git remote add origin <url>
-git remote --set-upstream origin master
+git push --set-upstream origin master
 ```
