@@ -1,6 +1,10 @@
 # GitWorkshops
 Welcome to our GitHub workshop. Get ready to learn all about the basics of using GitHub. Below are list of useful links and commands that we'll be using throughout this workshop. If you'd like to see our full presentation [click here](https://docs.google.com/presentation/d/e/2PACX-1vSJ3RUco-cA7sxMaIPcdS86nhlFSYUD4YOYhlSQD5I2RuCsCpAbUHk2ziOIeqBZy34ISkOd5ozTpcPX/pub?start=true&loop=false&delayms=5000 "Workshop Presentation")
 
+# Pre Test
+Before you get started, please complete this quick survey: http://bit.do/gho-presurvey
+
+
 # Set Up
 Begin by 
 1. [downloading git](https://git-scm.com/downloads "Git Downloads")
@@ -81,6 +85,9 @@ What exists on the remote git repository.
 
 Simply delete the conflict markers and the line you don't need (or don't delete either line if you'd like to keep both).
 
+# Post Test
+Now, please complete this quick survey: http://bit.do/gho-postsurvey
+
 
 ## [Initializing](https://git-scm.com/docs/git-init "Git Init")
 Initializes a non-git directory into a git repository.  
@@ -99,3 +106,5 @@ For your local Git repository to exist on GitHub you have to go the GitHub's web
 git remote add origin <url>
 git push --set-upstream origin master
 ```
+
+
