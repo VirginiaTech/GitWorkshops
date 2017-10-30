@@ -1,0 +1,6 @@
+Welcome to the GitHub Workshop!
+We'll explore one of the most dreaded - but inevitable - things in Git... Merge Conflicts!
+
+Everyone should change the following sentance with thier own thing:
+
+I am [(name)] and my favorite programming language is [(language)].
