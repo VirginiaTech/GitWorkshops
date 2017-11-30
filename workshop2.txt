@@ -1,4 +1,0 @@
-Welcome to the GitHub Workshop!
-Fill out some personal information:
-
-I am [(name)] and my favorite programming language is [(language)].
