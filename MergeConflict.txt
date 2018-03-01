@@ -1,6 +1,9 @@
-Welcome to the GitHub Workshop!
-We'll explore one of the most dreaded - but inevitable - things in Git... Merge Conflicts!
+# Welcome to the GitHub Workshop!
+# We'll explore one of the most dreaded - but inevitable - things in Git... Merge Conflicts!
 
-Everyone should change the following sentance with thier own thing:
+# Each person should change to following line of code:
 
-I am [(name)] and my favorite programming language is [(language)].
+for(int i = 0; i < 42; i++){
+	System.out.println("This was initially just a simple sentence, but now I made it look like code. It doesn't actually matter, but it'll look more familiar this way");
+	System.out.println("Hello world, my name is <NAME_HERE> and my favorite programming language is <LANGUAGE_HERE> ");
+}
