@@ -2,16 +2,16 @@
 Welcome to our GitHub workshop. Get ready to learn all about the basics of using GitHub. Below are list of useful links and commands that we'll be using throughout this workshop. If you'd like to see our full presentation [click here](https://docs.google.com/presentation/d/e/2PACX-1vSJ3RUco-cA7sxMaIPcdS86nhlFSYUD4YOYhlSQD5I2RuCsCpAbUHk2ziOIeqBZy34ISkOd5ozTpcPX/pub?start=true&loop=false&delayms=5000 "Workshop Presentation")
 
 # Pre Test
-Before you get started, please complete this quick survey: http://bit.do/gho-presurvey
+Before you start, you should've completed the pre-workshop survey shown in the presentation.
 
 
 # Set Up
 Begin by 
-1. [downloading git](https://git-scm.com/downloads "Git Downloads")
-2. [creating your GitHub account](https://github.com "GitHub Homepage")
+1. [Git Installation Instructions](https://goo.gl/qLYN5X)
+2. [Creat your GitHub account](https://github.com)
 
 # Basic Linux Commands
-These are the Linux commands that you'll be using in Git Bash (which you've just downloaded)  
+These are some Linux commands that you'll might need in your terminal (/Git Bash - which you've just downloaded)  
 
 &nbsp;&nbsp;&nbsp;`ls` shows files and folders (aka directories)  
 &nbsp;&nbsp;&nbsp;`mkdir <folder_name>` makes a new directory  
@@ -24,12 +24,14 @@ These are the Linux commands that you'll be using in Git Bash (which you've just
 # Basic Git
 
 ## [Forking](https://guides.github.com/activities/forking/ "GitHub Guides: Forking")
-Forking is a **GitHub** feature that creates a copy of a repository in your account. Begin by going the repository's web page.
+Forking is a **GitHub** feature that creates a copy of some repository into a specified account that you have access to. Begin by going to that repository's web page.
 1. Fork to your personal account by clicking the **"Fork"** button in the upper right hand corner.
 2. Invite your teammates to join your forked repository by going to the **"Settings"** page of the repository.
 3. Select the **"Collaborators"** tab from the sidebar on the left and enter your teammates' usernames.
 
 ## [Cloning](https://git-scm.com/docs/git-clone "Git Clone")
+Copies a GitHub Repo from GitHub onto your computer. This creates the working directory, staging area, and Git Repo for you, so you don't need to init.
+
 Copy the **HTTPS** URL from the repository. Before you use this URL, be sure to change to the directory where you'd like for the repository to be saved on your local machine. The sequence of events 
 
 ```
@@ -86,7 +88,7 @@ What exists on the remote git repository.
 Simply delete the conflict markers and the line you don't need (or don't delete either line if you'd like to keep both).
 
 # Post Test
-Now, please complete this quick survey: http://bit.do/gho-postsurvey
+When you finsh, you should completed the post-workshop survey shown in the presentation.
 
 
 ## [Initializing](https://git-scm.com/docs/git-init "Git Init")
@@ -95,10 +97,10 @@ It does **NOT** automatically put itself onto GitHub.
 
 First, create a directory that you'd like to turn into a git repository. Change to that directory and make some files. Finally, initalize the directory into a git repository!
 ```
-mkdir <folder_name>
-cd <folder_name>
-touch <file_name>
-git init
+mkdir example-folder      # Creates a directory
+cd example-folder         # Changes into that directory
+touch random-file.txt     # Creates a random .txt file
+git init                  # Initializes this directory into a Git Repository
 ```
 
 For your local Git repository to exist on GitHub you have to go the GitHub's website and create a new repository. On the [GitHub homepage](https://github.com/ "GitHub HomePage"), click the **"New repository"** button on the lower right hand corner. Copy the URL from this new repository to use in the following commands:
