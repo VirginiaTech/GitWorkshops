@@ -1,4 +1,0 @@
-Welcome to the GitHub Workshop!
-You must be Person 2. Make some changes to this file, like maybe writing a story, telling a joke, writing code... anything, really.
-
-
