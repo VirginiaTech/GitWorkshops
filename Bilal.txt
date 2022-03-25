@@ -1,4 +1,2 @@
 Welcome to the GitHub Workshop!
 You must be Person 1. Make a copy of this file, and add some changes to it - like maybe a story or a poem.
-
-My Name is Bilal
